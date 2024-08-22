@@ -3,3 +3,7 @@ authors = []
 language = "en"
 multilingual = false
 src = "src"
+
+[output.html]
+git-repository-url = "https://github.com/cmureadme/readme-docs"
+edit-url-template = "https://github.com/cmureadme/readme-docs/edit/master/guide/{path}"
