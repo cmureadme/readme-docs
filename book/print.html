@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Part test</li><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Contributing to readme-website</li><li class="chapter-item expanded "><a href="readme-website/setup.html"><strong aria-hidden="true">2.</strong> Setup</a></li><li class="chapter-item expanded "><a href="readme-website/wiki/index.html"><strong aria-hidden="true">3.</strong> Wiki</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">3.1.</strong> Quick Start</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.2.</strong> Docs</div></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -178,7 +178,60 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
-<p>first commit for the readme docs!</p>
+<p>help us make this godforsaken website better please please please please please please please</p>
+<p>Edits and pull requests greatly appreciated! :)</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="setup"><a class="header" href="#setup">Setup</a></h1>
+<p>This page will cover setup for helping with deploying the website and for helping with developing the website</p>
+<h2 id="deploying"><a class="header" href="#deploying">Deploying</a></h2>
+<p>Ask Lee and/or Eshaan.</p>
+<h2 id="developing"><a class="header" href="#developing">Developing</a></h2>
+<p>We're going to get your tech stack for readme-website up and running. This will require</p>
+<ol>
+<li>Python</li>
+<li>source code</li>
+<li>venv</li>
+<li>learning how Django works</li>
+</ol>
+<h3 id="python"><a class="header" href="#python">Python</a></h3>
+<p>As of writing, we use Django 5.1, which requires Python 3.10 to 3.12. Get one of those. Newer is probably better. Install Python <a href="https://www.python.org/downloads/">here</a>. Already have an outdated Python version? Get a new one and pay attention to the venv step.</p>
+<h3 id="source-code"><a class="header" href="#source-code">source code</a></h3>
+<p>To get our source code, install git. Run</p>
+<pre><code>git clone https://github.com/cmureadme/readme-website
+</code></pre>
+<p>git will create the directory <code>readme-website</code> with our source code.</p>
+<h3 id="venv"><a class="header" href="#venv">venv</a></h3>
+<p><em>Alternative tutorial: <a href="https://realpython.com/python-virtual-environments-a-primer/">link</a></em></p>
+<p>Virtual environments are good for making sure multiple Python projects can coexist on the same computer. Maybe you have a personal project that requires Python 3.8, or requires a library that conflicts with one of ours. With venv, you don't have to care.</p>
+<p>venv comes with Python. <code>cd</code> into <code>readme-website</code>. Run</p>
+<pre><code>python -m venv venv
+</code></pre>
+<p>venv creates a virtual environment using the same python that calls venv. If you have an outdated Python, you may need to specify</p>
+<pre><code>python3.10 -m venv venv
+</code></pre>
+<p>or similar.</p>
+<p>This creates a <code>venv</code> directory. Run</p>
+<pre><code>(linux/mac) source venv/bin/activate
+(windows) venv\Scripts\activate
+</code></pre>
+<p>to activate the venv. Now it's like you're in a completely new Python installation.</p>
+<p>Run</p>
+<pre><code>pip install -r requirements.txt
+</code></pre>
+<p>to install libraries you need to build the project.</p>
+<p>If you ever add new libraries, use</p>
+<pre><code>pip freeze &gt; requirements.txt
+</code></pre>
+<p>to overwrite the file with your venv's new requirements.</p>
+<h3 id="django"><a class="header" href="#django">Django</a></h3>
+<p>To start a local server, run</p>
+<pre><code>python manage.py runserver
+</code></pre>
+<p>The debug messages that result should include a line like</p>
+<pre><code>Starting development server at http://127.0.0.1:8000/
+</code></pre>
+<p>Open the link. You should now have a functioning local copy of readme-website. Cool! Now what? :blobsweat:</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="wiki"><a class="header" href="#wiki">Wiki</a></h1>
+<p>This wiki chapter should contain enough information to familiarize you with the readme-website codebase somewhat.</p>
 
                     </main>
 
