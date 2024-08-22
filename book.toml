@@ -6,4 +6,5 @@ src = "src"
 
 [output.html]
 git-repository-url = "https://github.com/cmureadme/readme-docs"
-edit-url-template = "https://github.com/cmureadme/readme-docs/edit/master/guide/{path}"
+edit-url-template = "https://github.com/cmureadme/readme-docs/edit/main/{path}"
+site-url = "/readme-docs/"
