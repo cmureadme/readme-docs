@@ -58,6 +58,12 @@ pip freeze > requirements.txt
 ```
 to overwrite the file with your venv's new requirements.
 
+You can use
+```
+deactivate
+```
+in your venv to exit it at any time.
+
 ### Django
 To start a local server, run
 ```
