@@ -10,7 +10,7 @@
 
     - [Quick Start](./readme-website/wiki/quick-start.md)
 
-    - [Docs]()
+    - [Docs](./readme-website/wiki/docs.md)
 
 # Contributing to readme-docs
 

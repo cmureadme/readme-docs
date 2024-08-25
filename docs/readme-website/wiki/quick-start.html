@@ -88,7 +88,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../../introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Contributing to readme-website</li><li class="chapter-item expanded "><a href="../../readme-website/setup.html"><strong aria-hidden="true">2.</strong> Setup</a></li><li class="chapter-item expanded "><a href="../../readme-website/wiki/index.html"><strong aria-hidden="true">3.</strong> Wiki</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../readme-website/wiki/quick-start.html" class="active"><strong aria-hidden="true">3.1.</strong> Quick Start</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.2.</strong> Docs</div></li></ol></li><li class="chapter-item expanded "><li class="part-title">Contributing to readme-docs</li><li class="chapter-item expanded "><a href="../../readme-docs/quick-start.html"><strong aria-hidden="true">4.</strong> Quick Start</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../../introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Contributing to readme-website</li><li class="chapter-item expanded "><a href="../../readme-website/setup.html"><strong aria-hidden="true">2.</strong> Setup</a></li><li class="chapter-item expanded "><a href="../../readme-website/wiki/index.html"><strong aria-hidden="true">3.</strong> Wiki</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../readme-website/wiki/quick-start.html" class="active"><strong aria-hidden="true">3.1.</strong> Quick Start</a></li><li class="chapter-item expanded "><a href="../../readme-website/wiki/docs.html"><strong aria-hidden="true">3.2.</strong> Docs</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Contributing to readme-docs</li><li class="chapter-item expanded "><a href="../../readme-docs/quick-start.html"><strong aria-hidden="true">4.</strong> Quick Start</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -182,6 +182,18 @@
                         <h1 id="quick-start"><a class="header" href="#quick-start">Quick Start</a></h1>
 <p>This video explains how to change a simple text element everywhere it appears.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JDPPhjM1ods?si=MRtQuTsW98qgR5H4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>This video goes over, in depth, how a more complicated page is rendered.</p>
+<p>TODO goal: understand how http://127.0.0.1:8000/authors/Author%20Who%20Asked%20To%20Be%20Credited%20Only%20As%20%E2%80%98He%20Who%20Shall%20Not%20Be%20Named%E2%80%99/ is rendered
+urlCONF https://docs.djangoproject.com/en/5.1/topics/http/urls/
+the view
+touch on class based views (link: https://docs.djangoproject.com/en/5.1/topics/class-based-views/) and why we don't use them
+models used in the view
+querying the models https://docs.djangoproject.com/en/5.1/topics/db/queries/
+render(), list the args
+request: taken care of by path(), probably
+context: a mapping from a name to what that name refers to. come back to that later
+template_name: the html template. start explaining this</p>
+
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
@@ -190,7 +202,7 @@
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../../readme-docs/quick-start.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../../readme-website/wiki/docs.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -204,7 +216,7 @@
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../../readme-docs/quick-start.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../../readme-website/wiki/docs.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

@@ -4,7 +4,7 @@ This page will cover setup for helping with deploying the website and for helpin
 
 ## Deploying
 
-Ask Lee and/or Eshaan.
+Ask Lee and/or Eshaan. 
 
 ## Developing
 We're going to get your tech stack for readme-website up and running. This will require
