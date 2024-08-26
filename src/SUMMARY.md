@@ -10,6 +10,8 @@
 
     - [Quick Start](./readme-website/wiki/quick-start.md)
 
+    - [Style Guide](./readme-website/wiki/style-guide.md)
+
     - [Docs](./readme-website/wiki/docs.md)
 
 # Contributing to readme-docs

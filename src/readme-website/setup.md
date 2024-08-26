@@ -12,6 +12,7 @@ We're going to get your tech stack for readme-website up and running. This will 
 1. source code
 1. venv
 1. learning how Django works
+1. contributing notes
 
 ### Python
 As of writing, we use Django 5.1, which requires Python 3.10 to 3.12. Get one of those. Newer is probably better. Install Python [here](https://www.python.org/downloads/). Already have an outdated Python version? Get a new one and pay attention to the venv step.
@@ -75,3 +76,8 @@ Starting development server at http://127.0.0.1:8000/
 ```
 
 Open the link. You should now have a functioning local copy of readme-website. Cool! Now what? :blobsweat:
+
+### Contributing
+🚨 PUSH TO DEV BRANCH, NOT MAIN!!! 🚨
+
+Main will automatically push to production. ```TODO main should even be write protected actually.```
