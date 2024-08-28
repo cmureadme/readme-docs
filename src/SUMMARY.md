@@ -4,7 +4,11 @@
 
 # Contributing to readme-website
 
+- [README](./readme-website/read-me.md)
+
 - [Setup](./readme-website/setup.md)
+
+- [Contributing](./readme-website/contributing.md)
 
 - [Wiki](./readme-website/wiki/README.md)
 
@@ -17,3 +21,7 @@
 # Contributing to readme-docs
 
 - [Quick Start](./readme-docs/quick-start.md)
+
+# Contributing to Contributing to readme-docs
+
+- [Quick Start](./readme-docs-docs/quick-start.md)

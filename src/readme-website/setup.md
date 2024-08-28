@@ -1,6 +1,6 @@
 # Setup
 
-This page will cover setup for helping with deploying the website and for helping with developing the website
+This page will cover setup for helping with deploying the website and for helping with developing the website.
 
 ## Deploying
 
@@ -103,6 +103,3 @@ Starting development server at http://127.0.0.1:8000/
 ```
 
 Open the link. You should now have a functioning local copy of readme-website. Cool! Now what? :blobsweat:
-
-### Contributing
-Push or pull request work to the `/dev` branch, not `/staging` and definitely not immediately to `/main`. Find work to do by asking in Discord or reading through the Github [project](https://github.com/orgs/cmureadme/projects/1) issues.
