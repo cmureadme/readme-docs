@@ -198,11 +198,16 @@
 <p>To get our source code, install git. Run</p>
 <pre><code>git clone https://github.com/cmureadme/readme-website
 </code></pre>
-<p>git will create the directory <code>readme-website</code> with our source code.</p>
+<p>git will create the directory <code>readme-website</code> with our source code. Let's move into it.</p>
+<pre><code>cd readme-website
+</code></pre>
+<p>Now, move to the <code>/dev</code> branch, the place you'll be working.</p>
+<pre><code>git checkout dev
+</code></pre>
 <h3 id="venv"><a class="header" href="#venv">venv</a></h3>
 <p><em>Alternative tutorial: <a href="https://realpython.com/python-virtual-environments-a-primer/">link</a></em></p>
 <p>Virtual environments are good for making sure multiple Python projects can coexist on the same computer. Maybe you have a personal project that requires Python 3.8, or requires a library that conflicts with one of ours. With venv, you don't have to care.</p>
-<p>venv comes with Python. <code>cd</code> into <code>readme-website</code>. Run</p>
+<p>venv comes with Python. Run</p>
 <pre><code>python -m venv venv
 </code></pre>
 <p>venv creates a virtual environment using the same python that calls venv. If you have an outdated Python, you may need to specify</p>

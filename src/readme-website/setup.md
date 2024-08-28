@@ -22,14 +22,22 @@ To get our source code, install git. Run
 ```
 git clone https://github.com/cmureadme/readme-website
 ```
-git will create the directory `readme-website` with our source code.
+git will create the directory `readme-website` with our source code. Let's move into it.
+```
+cd readme-website
+```
+
+Now, move to the `/dev` branch, the place you'll be working.
+```
+git checkout dev
+```
 
 ### venv
 _Alternative tutorial: [link](https://realpython.com/python-virtual-environments-a-primer/)_
 
 Virtual environments are good for making sure multiple Python projects can coexist on the same computer. Maybe you have a personal project that requires Python 3.8, or requires a library that conflicts with one of ours. With venv, you don't have to care.
 
-venv comes with Python. `cd` into `readme-website`. Run 
+venv comes with Python. Run 
 ```
 python -m venv venv
 ```
