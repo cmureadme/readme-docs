@@ -11,8 +11,8 @@ We're going to get your tech stack for readme-website up and running. This will 
 1. Python
 1. source code
 1. venv
-1. learning how Django works
-1. contributing notes
+1. getting Django set up
+1. and other contributing notes
 
 ### Python
 As of writing, we use Django 5.1, which requires Python 3.10 to 3.12. Get one of those. Newer is probably better. Install Python [here](https://www.python.org/downloads/). Already have an outdated Python version? Get a new one and pay attention to the venv step.
@@ -66,6 +66,25 @@ deactivate
 in your venv to exit it at any time.
 
 ### Django
+Our "real" copy of data exists on the server. Developers get a separate set of data to operate on so we don't accidentally influence the production database. We will now add a `media` folder and `db.sqlite3` database file. Notice that these are gitignored, again, so we don't accidentally influence the production database. Run these three commands. They should work on linux and in powershell.
+```
+python manage.py migrate (this creates the blank database file)
+python manage.py loaddata db_sample.json (this populates it with sample data)
+unzip media_sample.zip (this creates and populates the media folder)
+```
+Your file system should now contain
+```
+readme-website/
+├── .git
+├── media/
+│   ├── article_images/
+│   │   └── ...
+│   └── author_images/
+│       └── ...
+├── db.sqlite3
+└── ...
+```
+
 To start a local server, run
 ```
 python manage.py runserver
@@ -78,6 +97,4 @@ Starting development server at http://127.0.0.1:8000/
 Open the link. You should now have a functioning local copy of readme-website. Cool! Now what? :blobsweat:
 
 ### Contributing
-🚨 PUSH TO DEV BRANCH, NOT MAIN!!! 🚨
-
-Main will automatically push to production. ```TODO main should even be write protected actually.```
+Push or pull request work to the `/dev` branch, not `/staging` and definitely not immediately to `/main`. Find work to do by asking in Discord or reading through the Github [project](https://github.com/orgs/cmureadme/projects/1) issues.

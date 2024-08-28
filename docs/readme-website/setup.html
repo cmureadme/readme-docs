@@ -189,8 +189,8 @@
 <li>Python</li>
 <li>source code</li>
 <li>venv</li>
-<li>learning how Django works</li>
-<li>contributing notes</li>
+<li>getting Django set up</li>
+<li>and other contributing notes</li>
 </ol>
 <h3 id="python"><a class="header" href="#python">Python</a></h3>
 <p>As of writing, we use Django 5.1, which requires Python 3.10 to 3.12. Get one of those. Newer is probably better. Install Python <a href="https://www.python.org/downloads/">here</a>. Already have an outdated Python version? Get a new one and pay attention to the venv step.</p>
@@ -227,6 +227,22 @@
 </code></pre>
 <p>in your venv to exit it at any time.</p>
 <h3 id="django"><a class="header" href="#django">Django</a></h3>
+<p>Our "real" copy of data exists on the server. Developers get a separate set of data to operate on so we don't accidentally influence the production database. We will now add a <code>media</code> folder and <code>db.sqlite3</code> database file. Notice that these are gitignored, again, so we don't accidentally influence the production database. Run these three commands. They should work on linux and in powershell.</p>
+<pre><code>python manage.py migrate (this creates the blank database file)
+python manage.py loaddata db_sample.json (this populates it with sample data)
+unzip media_sample.zip (this creates and populates the media folder)
+</code></pre>
+<p>Your file system should now contain</p>
+<pre><code>readme-website/
+├── .git
+├── media/
+│   ├── article_images/
+│   │   └── ...
+│   └── author_images/
+│       └── ...
+├── db.sqlite3
+└── ...
+</code></pre>
 <p>To start a local server, run</p>
 <pre><code>python manage.py runserver
 </code></pre>
@@ -235,8 +251,7 @@
 </code></pre>
 <p>Open the link. You should now have a functioning local copy of readme-website. Cool! Now what? :blobsweat:</p>
 <h3 id="contributing"><a class="header" href="#contributing">Contributing</a></h3>
-<p>🚨 PUSH TO DEV BRANCH, NOT MAIN!!! 🚨</p>
-<p>Main will automatically push to production. <code>TODO main should even be write protected actually.</code></p>
+<p>Push or pull request work to the <code>/dev</code> branch, not <code>/staging</code> and definitely not immediately to <code>/main</code>. Find work to do by asking in Discord or reading through the Github <a href="https://github.com/orgs/cmureadme/projects/1">project</a> issues.</p>
 
                     </main>
 
