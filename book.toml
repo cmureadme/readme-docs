@@ -8,3 +8,10 @@ src = "src"
 git-repository-url = "https://github.com/cmureadme/readme-docs"
 edit-url-template = "https://github.com/cmureadme/readme-docs/edit/main/{path}"
 site-url = "/readme-docs/"
+additional-css = ["./mdbook-admonish.css"]
+
+[preprocessor]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
