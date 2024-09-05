@@ -2,10 +2,7 @@
 
 You can click on the edit buttons in the top right corner.
 
-If you want to build the mdBook locally, make sure you're building to `/docs`. e.g. 
-```
-mdbook serve -d docs 
-```
+If you want to build the mdBook locally, install [mdBook](https://rust-lang.github.io/mdBook/guide/installation.html) and [mdbook-admonish](https://github.com/tommilligan/mdbook-admonish#installation) and follow mdBook's documentation.
 
 ## requirements
 ```admonish
