@@ -13,6 +13,14 @@ We're going to get your tech stack for readme-website up and running. This will 
 1. venv
 1. getting the Django environment set up
 
+~~~admonish warning
+In theory, you can copy the entire code block in the tl;dr below for your operating system, paste it into the terminal, and press enter to get a fresh set up. 
+
+This sometimes does not work on Wade's machine: a `venv` directory is not created.
+
+If this fails for you, too, just run each line one by one.
+~~~~
+
 ~~~admonish example title="tl;dr"
 Linux:
 ```
