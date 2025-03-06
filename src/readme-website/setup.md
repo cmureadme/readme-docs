@@ -14,6 +14,10 @@ We're going to get your tech stack for readme-website up and running. This will 
 1. getting the Django environment set up
 
 ~~~admonish warning
+OUTDATED INFO: you must get the media file from https://github.com/cmureadme/readme-backup. the sample media zip is outdated.
+~~~~
+
+~~~admonish warning
 In theory, you can copy the entire code block in the tl;dr below for your operating system, paste it into the terminal, and press enter to get a fresh set up. 
 
 This sometimes does not work on Wade's machine: a `venv` directory is not created.
