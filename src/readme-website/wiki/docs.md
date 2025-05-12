@@ -37,3 +37,12 @@ If something breaks during the command line steps, you may have corrupted your d
 3. run from the command line `python manage.py migrate  # create the blank database file`
 4. run from the command dline `python manage.py loaddata db_sample.json  # populate it with sample data`
 ~~~
+
+### database data to/from json
+This command dumps all data to a json file, except admin logs such as editing articles, etc.
+```
+python manage.py dumpdata --natural-foreign --natural-primary -e contenttypes -e auth.Permission --indent 2 > dump.json
+```
+If you're on Windows, you may need to add the `-Xutf8` flag after `python`.
+
+A corresponding `loaddata` command exists. See https://docs.djangoproject.com/en/5.1/ref/django-admin/. For comprehensive docs.
