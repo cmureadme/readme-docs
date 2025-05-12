@@ -1,7 +1,12 @@
 # Docs
 ## Deploying
-Read the docs for like, everything.
+~~~admonish warning
+These docs are outdated after migration to computing club servers, and have been removed. The previous docs are available as html comments in the source code of this file.
 
+Someone should rewrite this section.
+~~~
+
+<!--
 Currently domain names cmureadme.com and staging.cmureadme.com is hosted on the following server:
 ```
 madison.lan.cmu.edu (128.237.64.84)
@@ -12,6 +17,7 @@ The command
 /usr/bin/sudo -u www-data /var/www/readme-deploy.sh
 ```
 deploys the main branch. Similar commands exist for the staging and dev branches. The user that runs this command on the `madison` server must be in the `www-data` group (I think).
+-->
 
 ## Developing
 ### changing the database
