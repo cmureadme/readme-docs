@@ -15,7 +15,10 @@ Now that you have Docker installed we want to make a clone of our [developmental
 If you are on Windows with WSL open a new terminal with WSL.
 If you are on Mac or Linux just open your normal terminal.
 
-Then run ```git clone https://github.com/cmureadme/readme-website-dev-docker.git```
+Then run `git clone https://github.com/cmureadme/readme-website-dev-docker.git`
 
 From there follow the instructions on the [repo's readme](https://github.com/cmureadme/readme-website-dev-docker/blob/main/README.md)
+
+Note that when you deploy the website locally you will run with `Debug=True`.
+Our actual production websites run with `Debug=False`.
 
