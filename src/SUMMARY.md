@@ -2,13 +2,9 @@
 
 - [Introduction](./introduction.md)
 
-# Contributing to readme-website
-
-- [README](./readme-website/read-me.md)
+# readme-website
 
 - [Setup](./readme-website/setup.md)
-
-- [Contributing](./readme-website/contributing.md)
 
 - [Production](./readme-website/production.md)
 
@@ -20,10 +16,11 @@
 
     - [Docs](./readme-website/wiki/docs.md)
 
+# readme-layout
+- [Layout](./readme-layout/layout.md)
+
+- [combindme](./readme-layout/combindme.md)
+
 # Contributing to readme-docs
 
 - [Quick Start](./readme-docs/quick-start.md)
-
-# Contributing to Contributing to readme-docs
-
-- [Quick Start](./readme-docs-docs/quick-start.md)
