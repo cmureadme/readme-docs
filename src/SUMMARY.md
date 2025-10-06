@@ -15,6 +15,8 @@
     - [Style Guide](./readme-website/wiki/style-guide.md)
 
     - [Docs](./readme-website/wiki/docs.md)
+    
+-[Graveyard](./readme-website/graveyard.md)
 
 # readme-layout
 - [Layout](./readme-layout/layout.md)
