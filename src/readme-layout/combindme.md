@@ -56,12 +56,12 @@ python3 combindme.py -h
 
 Here is a sample running of combindme on Windows:
 ```
-python3 combindme.py -v 1 -i 1 -t path\to\tabloid.pdf -c1 path\to\centerfold1.pdf -c2 path\to\centerfold2.pdf -d path\to\destination\folder
+python3 combindme.py -v 1 -i 1 -t path\to\tabloid.pdf -c1 path\to\centerfold1.pdf -c2 path\to\centerfold2.pdf -d path\to\destination\folder\
 ```
 
 Here is a sample running of combindme on Linux or Mac:
 ```
-python3 combindme.py -v 1 -i 1 -t path/to/tabloid.pdf -c1 path/to/centerfold1.pdf -c2 path/to/centerfold2.pdf -d path/to/destination/folder
+python3 combindme.py -v 1 -i 1 -t path/to/tabloid.pdf -c1 path/to/centerfold1.pdf -c2 path/to/centerfold2.pdf -d path/to/destination/folder/
 ```
 
 NOTE: If you have never used the command line before it might seem annoying to type out long paths by hand.
