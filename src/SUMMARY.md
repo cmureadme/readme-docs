@@ -12,11 +12,7 @@
 
 - [Wiki](./readme-website/wiki/README.md)
 
-    - [Quick Start](./readme-website/wiki/quick-start.md)
-
-    - [Style Guide](./readme-website/wiki/style-guide.md)
-
-    - [Docs](./readme-website/wiki/docs.md)
+    - [Dependencies](./readme-website/wiki/dependencies.md)
 
 # readme-layout
 - [Layout](./readme-layout/layout.md)
