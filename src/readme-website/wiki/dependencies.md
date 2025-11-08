@@ -23,10 +23,6 @@ This is a WSGI server for python.
 We use this to run both of our production websites.
 We use it along with nginx to host all of the media on the production server.
 
-## whitenoise
-This allows our app to serve its own static files.
-Very epic.
-
 ## Markdown
 This allows us to use markdown formating in admin entered text boxes.
 We can use markdown formating for example in the body of articles and then when we render it on the html page it is all nice and formated.
