@@ -5,6 +5,8 @@ Please it has taken years off of my life to fix some of these.
 
 This website is so cursed.
 
+The old repo for our website has been archived, but you can witness the horrors [here](https://github.com/cmureadme/readme-website-old)
+
 ## Hosting our production server inside of a student dorm
 Before we moved the Readme website to be hosted on the KGB cclub server the website was hosted off of a student owned server running in a dorm.
 
