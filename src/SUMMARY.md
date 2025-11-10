@@ -6,6 +6,8 @@
 
 - [Setup](./readme-website/setup.md)
 
+- [Contributing](./readme-website/contributing.md)
+
 - [Production](./readme-website/production.md)
 
 - [Graveyard](./readme-website/graveyard.md)
