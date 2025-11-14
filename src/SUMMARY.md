@@ -14,7 +14,7 @@
 
 - [Wiki](./readme-website/wiki/README.md)
 
-    - [Dependencies](./readme-website/wiki/dependencies.md)
+    - [Requirements](./readme-website/wiki/requirements.md)
     - [Settings](./readme-website/wiki/settings.md)
     - [Media](./readme-website/wiki/media.md)
     - [Style Guide](./readme-website/wiki/style-guide.md)
