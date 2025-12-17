@@ -16,6 +16,7 @@
 
     - [Requirements](./readme-website/wiki/requirements.md)
     - [Settings](./readme-website/wiki/settings.md)
+    - [Lintinig](./readme-website/wiki/linting.md)
     - [Media](./readme-website/wiki/media.md)
     - [Style Guide](./readme-website/wiki/style-guide.md)
 
