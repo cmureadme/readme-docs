@@ -10,6 +10,8 @@
 
 - [Production](./readme-website/production.md)
 
+- [Uploading](./readme-website/uploading.md)
+
 - [Graveyard](./readme-website/graveyard.md)
 
 - [Wiki](./readme-website/wiki/README.md)
