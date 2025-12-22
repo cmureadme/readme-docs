@@ -25,7 +25,7 @@
 # readme-layout
 - [Layout](./readme-layout/layout.md)
 
-- [combindme](./readme-layout/combindme.md)
+- [combineme](./readme-layout/combineme.md)
 
 # Contributing to readme-docs
 
