@@ -12,6 +12,8 @@
 
 - [Uploading](./readme-website/uploading.md)
 
+- [Author Accounts](./readme-website/authoraccounts.md)
+
 - [Graveyard](./readme-website/graveyard.md)
 
 - [Wiki](./readme-website/wiki/README.md)
