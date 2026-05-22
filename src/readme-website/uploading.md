@@ -47,26 +47,31 @@ If you need help, ask someone in the Discord to run it.
 
 I recommend having the pdf open in Adobe Acrobat as it makes it very easy to copy and paste text from the pdf.
 
-Click on the "Issues" button on the left side of the admin page, then click on the "add issue" button on the right side.
-
-##### Issue data fields
-| Field         | Description                                                                                                                                |
-|---------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| Name*         | The title of the issue, starting with `the issue in which`. Ex. `the issue in which we promise you that our alibi holds up under scrutiny` |
-| Vol*          | The volume number                                                                                                                          |
-| Num*          | The issue number                                                                                                                           |
-| Archive*      | The complete pdf of the issue                                                                                                              |
-| Release Date* | The publication date of the issue. Defaults to the current day, so make sure to double-check                                               |
-
-Make sure to hit the save button.
-
 ### "Paid for" gag:
 The "paid for" gag is a gag on the first centerfold of the issue. Ex. `Paid for by: Extensive lawyer fees and two bungled investigations`
 
 Click on the Paid Fors button on the left side of the screen.
 Then, click on the add Paid For button on the right side and enter the gag. Don't include the words `Paid for by:`.
+Note that this needs to be uploaded before the issue is uploaded.
 
 Make sure to hit save.
+
+Click on the "Issues" button on the left side of the admin page, then click on the "add issue" button on the right side.
+
+##### Issue data fields
+| Field          | Description                                                                                                                                |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| Short name*    | The short title of the issue, often follows the format `readme does blank`                                                                 |
+| Long name*     | The title of the issue, starting with `the issue in which`. Ex. `the issue in which we promise you that our alibi holds up under scrutiny` |
+| Vol*           | The volume number                                                                                                                          |
+| Num*           | The issue number                                                                                                                           |
+| Archive*       | The complete pdf of the issue                                                                                                              |
+| Paid for*      | The paid for gag                                                                                                                           |
+| Free*          | The free cost of the magazine, will be on centerfold one in the formate `blank : free` upload whatever is in the blank                     |
+| Three dollars* | The $3 cost of the magazine, will be on centerfold one in the formate `blank : $3$` upload whatever is in the blank                        |
+| Release Date*  | The publication date of the issue. Defaults to the current day, so make sure to double-check                                               |
+
+Make sure to hit the save button.
 
 ### Rejected Headlines
 Click on the rejected headlines button on the left side of the screen.
