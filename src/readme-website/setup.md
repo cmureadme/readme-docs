@@ -17,7 +17,7 @@ Run the setup script:
 chmod +x setup.sh
 ./setup.sh
 ```
-A new blank `.env` file will be created, add a secret key of your choosing.
+A new blank `.env` file will be created, adding a secret key of your choosing.
 
 Make sure that you have the venv activated: 
 ```source ./.venv/bin/activate```
