@@ -6,6 +6,8 @@
 
 - [Setup](./readme-website/setup.md)
 
+- [Helpful Commands](./readme-website/helpful-commands.md)
+
 - [Contributing](./readme-website/contributing.md)
 
 - [Production](./readme-website/production.md)
