@@ -7,11 +7,11 @@ git clone https://github.com/cmureadme/readme-layout.git
 ```
 
 Readme uses the following fonts, which you should install:
-| Font          | Uses |
-|---------------|------|
-| [Special Elite](https://fonts.google.com/specimen/Special+Elite) | Titles |
-| Courier New   | Centerfold headers, except "the issue in which..." |
-| Bell MT       | Everything else |
+| Font                                                             | Uses                                               |
+|------------------------------------------------------------------|----------------------------------------------------|
+| [Special Elite](https://fonts.google.com/specimen/Special+Elite) | Titles                                             |
+| Courier New                                                      | Centerfold headers, except "the issue in which..." |
+| Bell MT                                                          | Everything else                                    |
 
 The layout for the tabloid and each centerfold are done in separate `.sla` files. It's easiest to copy a previous layout as a template.
 
