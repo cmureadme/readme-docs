@@ -11,4 +11,9 @@ Django comes with a lot of functionality.
 
 Every time you change the database schema you need to run the above two commands in order.
 
+`python manage.py createsuperuser` : creates a superuser (admin) account
+
+Run this command on your local machine to create an admin account so you can view the admin panel.
+You will be prompted to enter in the nessary information.
+
 *A note about `python`: some systems will allow you to run python by typing `python` others require `python3` and others require `python3.13`*
