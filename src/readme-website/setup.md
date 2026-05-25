@@ -34,3 +34,8 @@ From there follow the instructions on the [repo's readme](https://github.com/cmu
 Note that when you deploy the website locally you will run with `Debug=True`.
 Our actual production websites run with `Debug=False`.
 
+## Developemental Data
+We host developmental databases at [https://cmureadme.com/sample_dbs/](https://cmureadme.com/sample_dbs/).
+Download whatever database and coresponding media folder you would like.
+
+*Note when using the database make sure it is named `db.sqlite3` because that is what the django settings looks for*
