@@ -19,7 +19,8 @@ python combineme.py -h
 ```
 
 ## combineme.py flags
-**required*
+\**required*
+
 | Flag                  | Description                           |
 |-----------------------|---------------------------------------|
 | *`-v`,`--volume`      | Volume number                         |
