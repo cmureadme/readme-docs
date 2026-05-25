@@ -1,41 +1,52 @@
 # Setup
-This page covers setting up eaither our developmental Docker image or venv on your local machine and getting started. 
-An important note is that we have stopped supporting Windows development. If you are on windows you need to have WSL installed.
-[Here](https://learn.microsoft.com/en-us/windows/wsl/install) is the offical Microsoft page on how to install WSL.
+We have venv and docker development setups for local development.
+When you deploy the website locally you will run with `Debug=True`.
+Our actual production websites run with `Debug=False`.
+
+Windows is not supported. If you are on Windows, you need to [have WSL installed](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 ## Venv
-Note that this is the prefered method for development as it is much lighterweight.
-Before using the venv make sure that you have python3.13 installed.
+This is the preferred development environment as it is more lightweight. 
 
-*A note about python3.13: some systems will allow you to run python by typing `python` others require `python3` and others require `python3.13`*
-To run the setup script:
+Clone the repo:
+```
+git clone https://github.com/cmureadme/readme-website.git
+```
+Run the setup script:
 ```
 chmod +x setup.sh
 ./setup.sh
 ```
-After running this a new `.env` file will be created.
-Fill in the `SECRET_KEY` field with whatever you would like.
+A new `.env` file with a secret key of your choosing (not empty) will be created.
 
-Whenever you are running the website locally make sure that you have activated the venv: `source ./.venv/bin/activate`
+Make sure that you have the venv activated: 
+```source ./.venv/bin/activate```
+
+Download the [sample db](https://cmureadme.com/sample_dbs/vol1to5/) and place `db.sqlite3` and the uncompressed `media` in the `readme-website` directory (NOT `readme_website`).
+
+To start the website, run
+```
+python manage.py runserver
+```
+You should be then able to access your local website at https://localhost:8000
+
+To create an admin account for developing the admin panel locally, run
+```python manage.py createsuperuser```
+
+*Some systems will allow you to run python by typing `python`. Others require `python3`, and others require `python3.13`*
+
 ## Docker
-Docker desktop is really easy and intuative to use. If you don't already have Docker experance I would recommend installing Docker desktop.
-Instructions can be found [here](https://docs.docker.com/desktop/).
+If you don't have experience with Docker, you can use Docker Desktop. Instructions can be found [here](https://docs.docker.com/desktop/).
 
-If you are on Windows with WSL [this page](https://docs.docker.com/desktop/features/wsl/) contains the information needed to make sure that Docker is running using WSL.
+If you are on Windows with WSL, [this page](https://docs.docker.com/desktop/features/wsl/) contains the information needed to make sure that Docker is running using WSL.
 
-Now that you have Docker installed we want to make a clone of our [developmental Docker repo](https://github.com/cmureadme/website-docker-local).
-If you are on Windows with WSL open a new terminal with WSL.
-If you are on Mac or Linux just open your normal terminal.
+Run 
+```git clone https://github.com/cmureadme/website-docker-local.git```
 
-Then run `git clone https://github.com/cmureadme/website-docker-local.git`
+Download the [sample db](https://cmureadme.com/sample_dbs/vol1to5/) and place `db.sqlite3` and the uncompressed `media` in the `sample_dbs` directory.
 
-From there follow the instructions on the [repo's readme](https://github.com/cmureadme/website-docker-local/blob/main/README.md)
+From there, follow the instructions on the [repo's readme](https://github.com/cmureadme/website-docker-local/blob/main/README.md)
 
-Note that when you deploy the website locally you will run with `Debug=True`.
-Our actual production websites run with `Debug=False`.
 
-## Developemental Data
-We host developmental databases at [https://cmureadme.com/sample_dbs/](https://cmureadme.com/sample_dbs/).
-Download whatever database and coresponding media folder you would like.
 
-*Note when using the database make sure it is named `db.sqlite3` because that is what the django settings looks for*
+

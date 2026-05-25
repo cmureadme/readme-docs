@@ -6,23 +6,21 @@
 
 - [Setup](./readme-website/setup.md)
 
-- [Helpful Commands](./readme-website/helpful-commands.md)
-
 - [Contributing](./readme-website/contributing.md)
 
-- [Production](./readme-website/production.md)
+- [Hosting](./readme-website/production.md)
 
 - [Uploading](./readme-website/uploading.md)
 
 - [Author Accounts](./readme-website/authoraccounts.md)
 
-- [Graveyard](./readme-website/graveyard.md)
+- [Migrations](./readme-website/migrations.md)
 
-- [Wiki](./readme-website/wiki/README.md)
+- [Codebase](./readme-website/wiki/README.md)
 
     - [Requirements](./readme-website/wiki/requirements.md)
     - [Settings](./readme-website/wiki/settings.md)
-    - [Lintinig](./readme-website/wiki/linting.md)
+    - [Linting](./readme-website/wiki/linting.md)
     - [Media](./readme-website/wiki/media.md)
     - [Style Guide](./readme-website/wiki/style-guide.md)
 
@@ -33,4 +31,4 @@
 
 # Contributing to readme-docs
 
-- [Quick Start](./readme-docs/quick-start.md)
+- [Editing the docs](./readme-docs/quick-start.md)

@@ -8,7 +8,7 @@ Those two permissions are default in django.
 However, on the backend there is a custom database object called `AuthorAdminPermission'.
 This maps an individual admin account to one or more author objects in the database.
 Then there is logic to make it so that each of these user accounts can only see and edit the specific author profiles they have been assigned.
-Notably no author account has the ability to delete any author object.
+No author account has the ability to delete any author object.
 
 ## Getting an account set up
 Message the current tech lead on discord.

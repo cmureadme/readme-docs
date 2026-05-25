@@ -7,9 +7,17 @@ In the `readme-website` directory, there are two requirements files:
 
 Currently the following dependencies are in `requirements-local.txt`:
 
-- `Django`: self-explanatory
-- `gunicorn`: used in production deployment
-- `Markdown`: used for uploading articles
-- `pillow`: needed for Django
+| Dependency | Purpose |
+|-|-|
+| Django | web framework |
+| gunicorn | WSGI server |
+| Markdown | formatting |
+| Pillow | image serving |
 
 When in your virtual environment for local development, run `pip freeze | diff requirements-host.txt -` from time to time. If any differences are printed, this indicates staging and prod are now using an out-of-date version of some library. Confirm that your local copy is working fine with the latest version, and if so, update `requirements-host.txt` to match your `pip freeze`.
+
+## Note about `~=`, `>=`, and `==`for local requirements
+- `~=`, for compatible releases, is generally preferred. 
+- `>=` is used for any version that is the version specified or future releases, which may break things.
+Only use this if you have a good reason to.
+- `==` prevents you from receiving critical security updates.
