@@ -7,6 +7,7 @@ git clone https://github.com/cmureadme/readme-layout.git
 ```
 
 Readme uses the following fonts, which you should install:
+
 | Font                                                             | Uses                                               |
 |------------------------------------------------------------------|----------------------------------------------------|
 | [Special Elite](https://fonts.google.com/specimen/Special+Elite) | Titles                                             |
