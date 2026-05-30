@@ -17,5 +17,7 @@ On every redeploy, we make a copy of the production database and media folder.
 This ensures that any changes we make on the development website don't affect anything on the production database.
 It also ensures that any changes that we are about to implement work with our production dataset.
 
+We have a webhook listener that redeploys upon pushes to `dev`. If this goes offline, someone with sudo on the KGB server should run ```~readme/webhookd/deploy_webhook.sh```
+
 If you don't have a superuser/user account on our actual production website, you will not have a superuser/user account on the development website.
 This means you need to test any admin changes you make on your local deployment extensively.
