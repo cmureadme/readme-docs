@@ -13,6 +13,9 @@ Currently the following dependencies are in `requirements-local.txt`:
 | gunicorn | WSGI server |
 | Markdown | formatting |
 | Pillow | image serving |
+| python-dotenv | env creation |
+| ruff | linting |
+|django-markdownx | admin panel preview content |
 
 When in your virtual environment for local development, run `pip freeze | diff requirements-host.txt -` from time to time. If any differences are printed, this indicates staging and prod are now using an out-of-date version of some library. Confirm that your local copy is working fine with the latest version, and if so, update `requirements-host.txt` to match your `pip freeze`.
 
