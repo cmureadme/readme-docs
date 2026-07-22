@@ -141,4 +141,7 @@ These don't get uploaded to the website.
 
 _*required_
 
+## Library Archives
+After uploading everything to the website you should put the pdf of the issue in [this](https://drive.google.com/drive/u/1/folders/1L3rBWXh3t9YfQzdONVg3IpYDuYRxE3Vz) Google Drive folder, so that the university archives gets the pdf.
+
 If you have any questions, ask them in the [Discord](cmukgb.org/readme).
