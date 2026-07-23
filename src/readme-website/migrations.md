@@ -15,6 +15,6 @@ If you `git pull` a migration file, you also need to run `python manage.py migra
 ~~~admonish warning
 If something breaks during the command line steps, you may have corrupted your database file. If this is a concern, follow these steps to restore it:
 1. delete the new migration file
-2. redownload the database file from [here](cmureadme.com/sample_dbs/
+2. redownload the database file from [here](cmureadme.com/sample_dbs/)
 ~~~
 
