@@ -10,6 +10,8 @@
 
 - [Hosting](./readme-website/production.md)
 
+- [Sample Databases](./readme-website/sample_dbs.md)
+
 - [Uploading](./readme-website/uploading.md)
 
 - [Author Accounts](./readme-website/authoraccounts.md)
