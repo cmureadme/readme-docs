@@ -15,16 +15,6 @@ If you `git pull` a migration file, you also need to run `python manage.py migra
 ~~~admonish warning
 If something breaks during the command line steps, you may have corrupted your database file. If this is a concern, follow these steps to restore it:
 1. delete the new migration file
-2. delete the `db.sqlite3`
-3. run from the command line `python manage.py migrate  # create the blank database file`
-4. run from the command dline `python manage.py loaddata db_sample.json  # populate it with sample data`
+2. redownload the database file from [here](cmureadme.com/sample_dbs/
 ~~~
 
-### database data to/from json
-This command dumps all data to a json file, except admin logs such as editing articles, etc.
-```
-python manage.py dumpdata --natural-foreign --natural-primary -e contenttypes -e auth.Permission --indent 2 > dump.json
-```
-If you're on Windows, you may need to add the `-Xutf8` flag after `python`.
-
-A corresponding `loaddata` command exists. See https://docs.djangoproject.com/en/5.1/ref/django-admin/. For comprehensive docs.
